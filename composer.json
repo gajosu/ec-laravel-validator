@@ -1,5 +1,5 @@
 {
-    "name": "tavo1987/laravel-ec-validator",
+    "name": "gajosu/laravel-ec-validator",
     "description": "Package to validate ruc and ci Ecuador",
     "keywords": ["cedula", "laravel", "ecuador"],
     "type": "library",
@@ -11,10 +11,10 @@
         }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.3|^8.0",
         "tavo1987/ec-validador-cedula-ruc": "^1.0.2",
-        "illuminate/validation": "^7.4.0",
-        "illuminate/support": "^7.4.0"
+        "illuminate/validation": "^7.4.0|^8.0.0|^9.0.0",
+        "illuminate/support": "^7.4.0|^8.0.0|^9.0.0"
     },
 
     "autoload": {

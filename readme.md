@@ -25,7 +25,7 @@ composer require gajosu/laravel-ec-validator
 Siguiente, incluye el service provider dentro de tu archivo config/app.php.
 ```php
 'providers' => [
-    Tavo\EcLaravelValidator\EcValidatorServiceProvider::class,
+    Gajosu\EcLaravelValidator\EcValidatorServiceProvider::class,
 ];
 ```
 

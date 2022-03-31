@@ -20,7 +20,7 @@ Este paquete tiene como dependencia [ec-validador-cedula-ruc](https://github.com
 Instalación
 ----
 ```bash
-composer require tavo1987/laravel-ec-validator
+composer require gajosu/laravel-ec-validator
 ```
 Siguiente, incluye el service provider dentro de tu archivo config/app.php.
 ```php

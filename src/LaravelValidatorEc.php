@@ -12,10 +12,10 @@ class LaravelValidatorEc extends Validator
     private $isValid = false;
 
     private $types = [
-      'ci'        => 'validarCedula',
-      'ruc'       => 'validarRucPersonaNatural',
-      'ruc_spub'  => 'validarRucSociedadPublica',
-      'ruc_spriv' => 'validarRucSociedadPrivada'
+        'ci'        => 'validarCedula',
+        'ruc'       => 'validarRucPersonaNatural',
+        'ruc_spub'  => 'validarRucSociedadPublica',
+        'ruc_spriv' => 'validarRucSociedadPrivada'
     ];
 
     public function validateEcuador($attribute, $value, $parameters)
@@ -28,13 +28,13 @@ class LaravelValidatorEc extends Validator
         }
 
 
-        if ( !$this->isValid ) {
+        if (!$this->isValid) {
             $error = strtolower($validator->getError());
             $this->setCustomMessages(["{$attribute} : {$error}"]);
 
             return $this->isValid;
         }
 
-        return $this->isValid ;
+        return $this->isValid;
     }
 }

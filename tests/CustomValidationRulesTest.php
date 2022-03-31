@@ -6,7 +6,8 @@ use Error;
 
 class CustomValidationRulesTest extends TestCase
 
-{   /** @test */
+{
+    /** @test */
     function valid_ci()
     {
         $data = [
@@ -30,13 +31,12 @@ class CustomValidationRulesTest extends TestCase
         ];
 
         $data = [
-            'ci'=> '0926687858',
+            'ci' => '0926687858',
         ];
 
         $v = $this->app['validator']->make($data, $rules);
 
         $this->assertFalse($v->passes());
-
     }
 
     /** @test */
@@ -47,13 +47,12 @@ class CustomValidationRulesTest extends TestCase
         ];
 
         $data = [
-            'ruc'=> '0926687856001',
+            'ruc' => '0926687856001',
         ];
 
         $v = $this->app['validator']->make($data, $rules);
 
         $this->assertTrue($v->passes());
-
     }
 
     /** @test */
@@ -64,13 +63,12 @@ class CustomValidationRulesTest extends TestCase
         ];
 
         $data = [
-            'ruc'=> '09266878560001',
+            'ruc' => '09266878560001',
         ];
 
         $v = $this->app['validator']->make($data, $rules);
 
         $this->assertFalse($v->passes());
-
     }
 
     /** @test */
@@ -81,13 +79,12 @@ class CustomValidationRulesTest extends TestCase
         ];
 
         $data = [
-            'ruc'=> '0992397535001',
+            'ruc' => '0992397535001',
         ];
 
         $v = $this->app['validator']->make($data, $rules);
 
         $this->assertTrue($v->passes());
-
     }
 
     /** @test */
@@ -98,13 +95,12 @@ class CustomValidationRulesTest extends TestCase
         ];
 
         $data = [
-            'ruc'=> '09923975350020',
+            'ruc' => '09923975350020',
         ];
 
         $v = $this->app['validator']->make($data, $rules);
 
         $this->assertFalse($v->passes());
-
     }
 
     /** @test */
@@ -115,13 +111,12 @@ class CustomValidationRulesTest extends TestCase
         ];
 
         $data = [
-            'ruc'=> '1760001550001',
+            'ruc' => '1760001550001',
         ];
 
         $v = $this->app['validator']->make($data, $rules);
 
         $this->assertTrue($v->passes());
-
     }
 
     /** @test */
@@ -132,13 +127,12 @@ class CustomValidationRulesTest extends TestCase
         ];
 
         $data = [
-            'ruc'=> '17600015500010',
+            'ruc' => '17600015500010',
         ];
 
         $v = $this->app['validator']->make($data, $rules);
 
         $this->assertFalse($v->passes());
-
     }
 
     /** @test */
@@ -151,7 +145,7 @@ class CustomValidationRulesTest extends TestCase
         ];
 
         $data = [
-            'ruc'=> '17600015500010',
+            'ruc' => '17600015500010',
         ];
 
         $v = $this->app['validator']->make($data, $rules);

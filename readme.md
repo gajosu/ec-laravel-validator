@@ -1,10 +1,10 @@
 Laravel Validador de Cédula y RUC de Ecuador
 =============================
-[ ![Codeship Status for tavo1987/ec-laravel-validator](https://app.codeship.com/projects/5a2eb6e0-29cd-0135-4450-0a506178a12f/status?branch=master)](https://app.codeship.com/projects/223752)
-<a href="https://packagist.org/packages/tavo1987/laravel-ec-validator"><img src="https://img.shields.io/badge/Packagist-v1.2.0-orange.svg?style=flat-square"></a>
-<a href="https://packagist.org/packages/tavo1987/ec-validador-cedula-ruc"><img src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square"></a>
-[![Latest Stable Version](https://poser.pugx.org/tavo1987/laravel-ec-validator/v/stable)](https://packagist.org/packages/tavo1987/laravel-ec-validator)
-[![Total Downloads](https://poser.pugx.org/tavo1987/laravel-ec-validator/downloads)](https://packagist.org/packages/tavo1987/laravel-ec-validator)
+[ ![Codeship Status for gajosu/ec-laravel-validator](https://app.codeship.com/projects/5a2eb6e0-29cd-0135-4450-0a506178a12f/status?branch=master)](https://app.codeship.com/projects/223752)
+<a href="https://packagist.org/packages/gajosu/laravel-ec-validator"><img src="https://img.shields.io/badge/Packagist-v1.2.0-orange.svg?style=flat-square"></a>
+<a href="https://packagist.org/packages/gajosu/ec-validador-cedula-ruc"><img src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square"></a>
+[![Latest Stable Version](https://poser.pugx.org/gajosu/laravel-ec-validator/v/stable)](https://packagist.org/packages/gajosu/laravel-ec-validator)
+[![Total Downloads](https://poser.pugx.org/gajosu/laravel-ec-validator/downloads)](https://packagist.org/packages/gajosu/laravel-ec-validator)
 
 Pequeño paquete para agregar reglas personalizadas a laravel, valida fácilmente:
 
@@ -15,7 +15,7 @@ Pequeño paquete para agregar reglas personalizadas a laravel, valida fácilment
 
 Introducción
 -------------
-Este paquete tiene como dependencia [ec-validador-cedula-ruc](https://github.com/tavo1987/ec-validador-cedula-ruc) Si quieres saber más sobre la lógica utilizada en este paquete puedes visitar el siguiente artículo [Cómo validar cédula y RUC en Ecuador](https://medium.com/@bryansuarez/c%C3%B3mo-validar-c%C3%A9dula-y-ruc-en-ecuador-b62c5666186f), donde se detalla el proceso manual.
+Este paquete tiene como dependencia [ec-validador-cedula-ruc](https://github.com/gajosu/ec-validador-cedula-ruc) Si quieres saber más sobre la lógica utilizada en este paquete puedes visitar el siguiente artículo [Cómo validar cédula y RUC en Ecuador](https://medium.com/@bryansuarez/c%C3%B3mo-validar-c%C3%A9dula-y-ruc-en-ecuador-b62c5666186f), donde se detalla el proceso manual.
 
 Instalación
 ----

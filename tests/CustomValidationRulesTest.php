@@ -1,6 +1,6 @@
 <?php
 
-namespace Tavo\EcLaravelValidator\Tests;
+namespace Gajosu\EcLaravelValidator\Tests;
 
 use Error;
 

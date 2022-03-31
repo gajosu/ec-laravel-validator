@@ -1,9 +1,9 @@
 <?php
 
-namespace Tavo\EcLaravelValidator\Tests;
+namespace Gajosu\EcLaravelValidator\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use Tavo\EcLaravelValidator\EcValidatorServiceProvider;
+use Gajosu\EcLaravelValidator\EcValidatorServiceProvider;
 
 abstract class TestCase extends OrchestraTestCase
 {

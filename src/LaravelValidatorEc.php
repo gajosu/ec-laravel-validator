@@ -1,10 +1,11 @@
 <?php
 
-namespace Tavo\EcLaravelValidator;
+namespace Gajosu\EcLaravelValidator;
 
 use Error;
-use Illuminate\Validation\Validator;
 use Tavo\ValidadorEc;
+use Illuminate\Validation\Validator;
+
 
 class LaravelValidatorEc extends Validator
 {

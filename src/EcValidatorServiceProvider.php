@@ -1,6 +1,6 @@
 <?php
 
-namespace Tavo\EcLaravelValidator;
+namespace Gajosu\EcLaravelValidator;
 
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;

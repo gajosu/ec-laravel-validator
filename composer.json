@@ -19,12 +19,12 @@
 
     "autoload": {
         "psr-4": {
-            "Tavo\\EcLaravelValidator\\" : "src/"
+            "Gajosu\\EcLaravelValidator\\" : "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tavo\\EcLaravelValidator\\Tests\\": "tests/"
+            "Gajosu\\EcLaravelValidator\\Tests\\": "tests/"
         }
     },
     "require-dev": {
@@ -41,7 +41,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Tavo\\EcLaravelValidator\\EcValidatorServiceProvider"
+                "Gajosu\\EcLaravelValidator\\EcValidatorServiceProvider"
             ]
         }
     }
